@@ -22,5 +22,9 @@ total overflow: 54
 $ open out2.html
 ```
 example output for adaptec2.gr and a great routing run:
+![adpatec 2 example route](https://raw.githubusercontent.com/phonyphonecall/global-route-visualizer/master/adaptec2-example.png)
+
+## contributing
+Feel free to send PR's or open issues. Before openning an issue, be sure that your input files arn't the problem!
 
 
