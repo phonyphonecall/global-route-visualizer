@@ -180,7 +180,7 @@ int main(int argc, char **argv) {
             continue;
         } else if (usage > 0) {
             // non-overflow case... grey. darker == more usage
-            r = int(225.0 * (double(usage) / double(capacity)));
+            r = int(225.0 * (double(usage) / double(capacity))) + 30;
             g = r;
             b = r;
             width = 7 - int(7.0 * (double(usage) / double(capacity)));
@@ -190,7 +190,7 @@ int main(int argc, char **argv) {
             r = 255;
             g = 0;
             b = 0;
-            width =  7 - int(7.0 * (double(abs(usage)) / double(maxOverflow)));
+            width =  6;
         }
         int x1, y1, x2, y2;
         getSegmentFromEdge(i, x1, y1, x2, y2);
