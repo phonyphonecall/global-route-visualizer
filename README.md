@@ -21,7 +21,7 @@ $ ./visualize ../ece556-global-routing/benchmarks/adaptec2.gr ../ece556-global-r
 total overflow: 54
 $ open out2.html
 ```
-example output for adaptec2.gr and a great routing run:
+[example output](https://raw.githubusercontent.com/phonyphonecall/global-route-visualizer/master/out2.html) for adaptec2.gr and a great routing run:
 ![adpatec 2 example route](https://raw.githubusercontent.com/phonyphonecall/global-route-visualizer/master/adaptec2-example.png)
 
 ## contributing
